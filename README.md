@@ -8,5 +8,6 @@
 - `git add .`               -> adicionar arquivos ao **stage**
 - `git commit -m "Texto"`   -> comitar com mensagem as alterações feitas (texto entre aspas duplas será inserido no commit)
 - `git log`                 -> exibe o histórico de comits no repositório
-- `git remote add ENDEREÇO_REPOSITÓRTIO` -> adiciona o repositório remoto como referência para o local (cria a conexão entre a pasta local com o repositório do GitHub - endereço utilizado no exemplo: `"git remote add origin https://github.com/kellysabioni/exemplo-git-cli.git"`)
+- `git remote add ENDEREÇO_REPOSITÓRTIO` -> adiciona o repositório remoto como referência para o local (cria a conexão entre o repositório local (PC) com o repositório remoto (GitHub) - endereço utilizado no exemplo: `"git remote add origin https://github.com/kellysabioni/exemplo-git-cli.git"`)
 - `git push origin main`    -> executa o push enviando as alterações para o repositório remoto (origin)
+- `git pull origin main`    -> executa o pull baixando as alterações para o repositório local
